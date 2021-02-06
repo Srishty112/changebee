@@ -1,11 +1,63 @@
 .App {
   text-align: center;
+  color:black;
+  font-size: larger;
+}
+sm{
+  font-size: 78%
+}
+.row{
+  text-align: left;
+}
+
+.comp2{
+  background-image: url('./components/blue.jpg');
+
+}
+
+Typography
+{
+  font-weight: 800;
+}
+
+.indigo1{
+ background-color: #381C82;
+}
+
+white{
+  color: white;
+}
+
+m{
+  margin-left: 0.8rem;
+  margin-right: 0.8rem;
+  padding-left: 0.8rem;
+  padding-right: 0.8rem;
+}
+
+img{max-width: 100%; margin: 0;}
+
+.cb{
+  font-family:cursive;
+  color: black;
+  font-size:x-large;
+  align-items: flex-start;
+  margin: 3rem;
+}
+
+.btn{
+  background: #f77a48;
+}
+nav{
+  background-color: white;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
+
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

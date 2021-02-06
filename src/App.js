@@ -1,23 +1,22 @@
-import logo from './logo.svg';
+import Navbar from './components/Navbar'
+import Comp1 from './components/Comp1';
+import Comp2 from './components/Comp2';
+import Footer from './components/footer';
+import { ThemeProvider } from '@material-ui/core/styles';
 import './App.css';
+import theme from './theme'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <ThemeProvider theme={theme}>
+    <Navbar/>
+    <Comp1/>
+    <Comp2/>
+    <Footer/>
+    <br/>
+    </ThemeProvider>
+    
     </div>
   );
 }
